@@ -1,15 +1,19 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iamlucky/constant.dart';
 import 'package:iamlucky/controller/onboarding_controller.dart';
+import 'package:iamlucky/utils/languages/local_controller.dart';
+
 
 class ButtonStartOrNext extends StatelessWidget {
-  const ButtonStartOrNext({
+   ButtonStartOrNext({
     Key? key,
     required OnboardingController controller,
   }) : _controller = controller, super(key: key);
 
   final OnboardingController _controller;
+  final LocalController localController = Get.find();
 
   @override
   Widget build(BuildContext context) {
@@ -19,11 +23,14 @@ class ButtonStartOrNext extends StatelessWidget {
     return
       Positioned(
       bottom: 15,
-      right: 25,
+
+      right: 20,
+
+
       child: TextButton(
         child: Obx((){
           return Text(
-            _controller.isLastPage?'Start':'Next',
+            _controller.isLastPage?'Start'.tr:'Next'.tr,
             style: TextStyle(
               color: ePrimaryColor,
               fontFamily: 'Georgia',
@@ -37,5 +44,7 @@ class ButtonStartOrNext extends StatelessWidget {
 
       ),
     );
+
+
   }
 }

@@ -1,0 +1,42 @@
+const Map<String,String> en={
+  'Demo Version':'Demo Version',
+  'Start':'Start',
+  'Next':'Next',
+  'We help you':'We help you',
+  'To achieve your tasks':'To achieve your tasks',
+  'Gaining are':'Gaining are',
+  'New habits':'New habits',
+  'With us your achievement':'With us your achievement',
+  'Is rewarded with gifts\n of your choice': 'Is rewarded with gifts\n of your choice',
+  'New Lucky':'New Lucky',
+  'New Task':'New Task',
+  'Profile':'Profile',
+  'Tasks':'Tasks',
+  'My achievements':'My achievements',
+  'Redeem Points':'Redeem Points',
+  'Add 5 Points':'Add 5 Points',
+  'Store Rating':'Store Rating',
+  'Help Center':'Help Center',
+  'Sign out':'Sign out',
+  'Register as a support store':'Register as a support store',
+  'Publish a commercial Ads':'Publish a commercial Ads',
+  'Pts':'Pts',
+  'Level':'Level',
+  'Easy Tasks':'Easy Tasks',
+  'Routine Tasks':'Routine Tasks',
+  'Complex Tasks':'Complex Tasks',
+  'New habit':'New habits',
+  'Choose the type of task:':'Choose the type of task:',
+  'To see the details of each task, click and hold on it':'To see the details of each task, click and hold on it',
+  'Simple tasks requiring minutes or hours to achieve\nand earning 5 points per completed task':'Simple tasks requiring minutes or hours to achieve\nand earning 5 points per completed task',
+  'Major tasks that needs several days or weeks \n to earn 20 points per completed task':'Major tasks that needs several days or weeks \n to earn 20 points per completed task',
+  'Frequent tasks you are skilled at \n and earning 10 points per completed task':'Frequent tasks you are skilled at \n and earning 10 points per completed task',
+  'New Daily/Weekly habits\n you need to repeat 41 \n times to earn 300 points.':'New Daily/Weekly habits\n you need to repeat 41 \n times to earn 300 points.',
+  'Task Name':'Task Name',
+  'Time: ':'Time: ',
+
+
+};
+
+
+

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:iamlucky/constant.dart';
 import 'package:iamlucky/controller/onboarding_controller.dart';
 
@@ -26,9 +27,8 @@ class PagesOfOnboarding extends StatelessWidget {
                 ),
                 Text(
                   _controller.onborardingPages[index].title,
-                  style: TextStyle(
+                  style: GoogleFonts.roboto(
                     color: ePrimaryColor,
-                    fontFamily: 'Georgia',
                     fontWeight: FontWeight.bold,
                     fontSize: 20,
                   ),

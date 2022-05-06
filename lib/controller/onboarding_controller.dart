@@ -9,10 +9,10 @@ class OnboardingController extends GetxController {
 //list of model image,title,description
   List<OnboardingInfo> onborardingPages = [
     OnboardingInfo(
-        'assets/images/2.png', 'We help you', 'To achieve your tasks'),
-    OnboardingInfo('assets/images/1.png', 'Gaining are', 'New habits'),
-    OnboardingInfo('assets/images/34.png', 'With us your achievement',
-        'Is rewarded with gifts\n of your choice'),
+        'assets/images/2.png', 'We help you'.tr, 'To achieve your tasks'.tr),
+    OnboardingInfo('assets/images/1.png', 'Gaining are'.tr, 'New habits'.tr),
+    OnboardingInfo('assets/images/34.png', 'With us your achievement'.tr,
+        'Is rewarded with gifts\n of your choice'.tr),
   ];
   //page is opening
   var openPage = 0.obs;

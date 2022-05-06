@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:iamlucky/constant.dart';
 import 'package:iamlucky/controller/splash_controller.dart';
 
@@ -25,10 +26,9 @@ class SplashScreen extends StatelessWidget {
 
                 ),
                 //label version number
-                Text('Demo Version',
-                  style: TextStyle(
+                Text('Demo Version'.tr,
+                  style: GoogleFonts.aclonica(
                     color: ePrimaryColor,
-                    fontFamily: 'Georgia',
                     fontWeight: FontWeight.bold,
                     fontSize: 15,
                   ),
